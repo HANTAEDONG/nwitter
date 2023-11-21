@@ -3,8 +3,8 @@ import { auth } from "../../firebase";
 import { Link, useNavigate } from "react-router-dom";
 import { FirebaseError } from "firebase/app";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { Form, Input, Switcher, Title, Wrapper } from "../../components/login-css/login-components";
-import { Error } from "../../components/login-css/auth-components";
+import { Form, Input, Switcher, Title, Wrapper } from "../../css/login-css/login-components";
+import { Error } from "../../css/login-css/auth-components";
 
 export default function CreateAccount() {
     const navigate = useNavigate();
