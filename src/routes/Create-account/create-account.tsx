@@ -3,7 +3,7 @@ import { useState } from "react";
 import { auth } from "../../firebase";
 import { Form, Link, useNavigate } from "react-router-dom";
 import { FirebaseError } from "firebase/app";
-import { Error, Input, Switcher, Title, Wrapper } from "../../css/login-css/auth-components";
+import { Error, Input, Switcher, Title, Wrapper } from "../../components/login-css/auth-components";
 
 
 export default function CreateAccount() {
